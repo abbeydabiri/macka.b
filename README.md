@@ -23,7 +23,7 @@ Link: https://www.youtube.com/watch?v=i5PO6iKNJLs
 <br/>
 <br/>
 
-# MackaB REST API example application
+# Macka.B REST API example application
 
 
 
@@ -92,7 +92,7 @@ yarn test
 
 ## API Reference
 
-Learn more about using MackaB below
+Learn more about using Macka.B below
 
 
 ## To add or update item inventory in stock right now
@@ -166,4 +166,4 @@ Learn more about using MackaB below
 
 ## License
 
-MackaB is [MIT licensed](./LICENSE).
+Macka.B is [MIT licensed](./LICENSE).
