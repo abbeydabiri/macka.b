@@ -101,7 +101,7 @@ Learn more about using MackaB below
 
 `POST /inventory`
 
-    curl -i -H 'Accept: application/json' -d '[ { "itemID": 1,  "itemName": "Fancy Red Dress", "quantity": 15}, { "itemID": 2,  "itemName": "Glass Slippers", "quantity": 3} ]' http://localhost:1960/inventory
+    curl -i -H 'Content-Type: application/json' -d '[ { "itemID": 1,  "itemName": "Fancy Red Dress", "quantity": 15}, { "itemID": 2,  "itemName": "Glass Slippers", "quantity": 3} ]' http://localhost:1960/inventory
 
 ### Response
 
@@ -124,7 +124,7 @@ Learn more about using MackaB below
 
 `POST /show/[show_ID]/buy_item/[item_ID]`
 
-    curl -i -H 'Accept: application/json' -d '' http://localhost:1960/show/101/buy_item/2
+    curl -i -H 'Content-Type: application/json' -d '' http://localhost:1960/show/101/buy_item/2
 ### Response
 
     HTTP/1.1 200 OK
@@ -147,7 +147,7 @@ Learn more about using MackaB below
 
 `GET /show/[show_ID]/sold_items/[item_id]`
 
-    curl -i -H 'Accept: application/json' http://localhost:1960/show/101/sold_items/2
+    curl -i -H 'Content-Type: application/json' http://localhost:1960/show/101/sold_items/2
 
 ### Response
 
